@@ -1,11 +1,11 @@
 # Site settings
 author: Bryce Dumas
-title: 
+title: Software Engineering blog
 header-img: img/home-bg.png
 email: bryce.dumas@gmail.com
 copyright_name: Bryce Dumas
 description: > # this means to ignore newlines until "baseurl:"
-  
+  subtitle
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Bryce-Du

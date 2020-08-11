@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "MealPlanner JS SPA"
-date:       2020-08-11 16:54:36 +0000
+date:       2020-08-11 12:54:37 -0400
 permalink:  mealplanner_js_spa
 ---
 
@@ -21,5 +21,8 @@ Setting up the form was probably the most fun. At first I wanted to use Bootstra
 While we're comparing JS and Rails, the biggest difference is how much freedom we have in JS versus the rigid conventions of Rails. In JS there are countless ways to go about each problem, and very rarely are any of the options "wrong". Some of them may be a bit cumbersome and inefficient however, but it seems like best practice for an application without any frontend framework is to be as consistent as possible. My approach was to create a catch all event listener for clicks, and perform logic on the clicked item based on it's id or class name matching one of the options. So when a user clicks anywhere on the page, it checks whether the clicked item is an empty cell, and if it is generates the new meal form. If the user clicks on an existing meal it shows the details to the side. Whenever possible, I also tried to add lots of new elements in bulk by just adding to another element's innerHTML. One instance where that wasn't possible was setting up the ability to add multiple ingredients. Trying to write the new input all as a single HTML string kept giving me errors, so I shifted gears and just created a new input element and set the attributes accordingly.
 
 At the end of this project, I'm very excited to start using React, since this felt like a lot of work for little payoff. I'm hoping that frontend frameworks will make the process of writing in JS go a lot easier and faster so that I can take apps further. I'm considering continuing with this concept in the final project, and see if I can make a complete version that incorporates all of the features I've wanted since the beginning.
+
+
+Github repo links: [frontend](https://github.com/Bryce-Du/MealPlanner-Frontend) [backend](https://github.com/Bryce-Du/MealPlanner-Backend)
 
 

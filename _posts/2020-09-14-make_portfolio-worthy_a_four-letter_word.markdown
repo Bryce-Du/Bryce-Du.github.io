@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Make "Portfolio-Worthy" a four-letter word"
-date:       2020-09-14 15:04:47 +0000
+title:      "Make "Portfolio Worthy" a four letter word"
+date:       2020-09-14 11:04:48 -0400
 permalink:  make_portfolio-worthy_a_four-letter_word
 ---
 
